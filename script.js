@@ -6,7 +6,7 @@ function firstChar(text) {
 		}else if (text.length==0){
 			return "empty String"
 		}else if(text.length==1 && text[i]==" "){
-			return " "
+			return ''
 		}else{
 			return text[i]
 		}
